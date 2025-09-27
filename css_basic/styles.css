@@ -1,0 +1,12 @@
+main {
+  display: flex;
+  gap: 1rem;
+}
+
+article {
+  flex: 2;    
+}
+
+aside {
+  flex: 1;   
+}
