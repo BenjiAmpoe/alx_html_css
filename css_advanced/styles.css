@@ -135,3 +135,41 @@ h1 {
 }
 
 
+.videos {
+  max-width: 1200px;        
+  margin: 0 auto;           
+  padding: 60px 20px;       
+  text-align: center;
+}
+
+.videos h2 {
+  font-size: 2.5rem;        
+  margin-bottom: 40px;
+}
+
+.videos .video-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  padding: 20px;
+}
+
+.videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .videos {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .videos {
+    grid-template-columns: 1fr;
+  }
+}
+
