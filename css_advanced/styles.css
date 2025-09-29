@@ -75,6 +75,42 @@ main > section:first-of-type button {
   cursor: pointer;
 }
 
+.testimonials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+.testimonials img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 40px;
+}
+
+.testimonials blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.testimonials h3 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.testimonials p {
+    font-size: 1rem;
+    color: #777;
+}
+
+
 body {
     background-color: lightblue;
     margin: 0;
