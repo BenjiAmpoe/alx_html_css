@@ -173,3 +173,139 @@ h1 {
   }
 }
 
+.membership {
+  background-color: #071629;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.membership h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.membership .plans {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto 60px;
+}
+
+.membership .plan img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.membership .plan h3 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+
+.membership .plan p {
+  font-size: 0.95rem;
+  color: #d9d9d9;
+  line-height: 1.5;
+}
+
+.membership .join-btn {
+  background-color: #C271FF;
+  color: #fff;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.membership .join-btn:hover {
+  background-color: #a454d9;
+}
+
+.faq {
+  background-color: #FFFFFF;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.faq h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 60px;
+  color: #071629;
+}
+
+.faq-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+.faq-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.faq-item h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #071629;
+}
+
+.faq-item p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .faq-row {
+    grid-template-columns: 1fr;
+  }
+}
+ footer {
+  background-color: #071629;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+footer section {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+footer section img {
+  width: 120px;      
+  height: auto;
+}
+
+footer section div {
+  display: flex;
+  gap: 16px;
+}
+
+footer section div i {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #BBBBBB;
+}
+
