@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Headphones — Our results (CSS pentagons)</title>
+
+  <!-- icon font if you still use it -->
+  <link rel="stylesheet" href="holberton_school-icon/holberton_school-icon.css">
+
+  <!-- main styles -->
+  <link rel="stylesheet" href="6-styles.css" />
+</head>
+<body>
+  <!-- header/hero (kept minimal for this task) -->
+  <header class="header">
+    <div class="container nav-wrap">
+      <a href="#" class="logo">headphones</a>
+      <nav aria-label="Main navigation" class="nav">
+        <ul class="nav-list">
+          <li><a href="#what-we-do">what we do</a></li>
+          <li><a href="#our-results">our results</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="hero container">
+      <h1>Your Sound, Your World</h1>
+      <p>Experience the best sound quality with our premium headphones.</p>
+      <a href="#what-we-do" class="btn">Discover</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- what we do (kept simple for context) -->
+    <section id="what-we-do" class="what-we-do container">
+      <h2>What we do</h2>
+      <p class="section-subtitle">Design, engineering and quality for the finest audio experience.</p>
+    </section>
+
+    <!-- OUR RESULTS: CSS pentagons -->
+    <section id="our-results" class="our-results container" aria-labelledby="our-results-title">
+      <h2 id="our-results-title" class="section-title">Our results speak for themselves</h2>
+      <p class="section-desc">Numbers that represent our impact. Each value is shown inside a CSS-drawn pentagon (no images).</p>
+
+      <ul class="results-list" role="list">
+        <li class="result-item">
+          <div class="pentagon" aria-hidden="true">
+            <span class="pentagon-inner">
+              <span class="stat">+2M</span>
+            </span>
+          </div>
+          <p class="result-label">Headphones sold</p>
+        </li>
+
+        <li class="result-item">
+          <div class="pentagon accent-2" aria-hidden="true">
+            <span class="pentagon-inner">
+              <span class="stat">+50</span>
+            </span>
+          </div>
+          <p class="result-label">Awards won</p>
+        </li>
+
+        <li class="result-item">
+          <div class="pentagon accent-3" aria-hidden="true">
+            <span class="pentagon-inner">
+              <span class="stat">98%</span>
+            </span>
+          </div>
+          <p class="result-label">Customer satisfaction</p>
+        </li>
+
+        <li class="result-item">
+          <div class="pentagon accent-4" aria-hidden="true">
+            <span class="pentagon-inner">
+              <span class="stat">+120</span>
+            </span>
+          </div>
+          <p class="result-label">Countries reached</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- contact (kept from earlier tasks) -->
+    <section id="contact" class="contact-us container">
+      <h2>Contact us</h2>
+      <p class="section-desc">Have a question? Fill out the form and we'll reply.</p>
+      <form class="contact-form" action="#" method="post" novalidate>
+        <label class="visually-hidden" for="name">Name</label>
+        <input id="name" name="name" placeholder="Your name" required>
+
+        <label class="visually-hidden" for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="Your email" required>
+
+        <label class="visually-hidden" for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Your message" required></textarea>
+
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-logo"><h3>Headphones</h3></div>
+      <div class="footer-socials" aria-hidden="true">
+        <a href="#" aria-label="Facebook"><span class="holberton_school-icon-ic_facebook"></span></a>
+        <a href="#" aria-label="Twitter"><span class="holberton_school-icon-ic_twitter"></span></a>
+        <a href="#" aria-label="Instagram"><span class="holberton_school-icon-ic_instagram"></span></a>
+      </div>
+    </div>
+    <p class="footer-text">&copy; 2025 Headphones. All rights reserved.</p>
+  </footer>
+</body>
+</html>
