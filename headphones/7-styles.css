@@ -7,11 +7,7 @@
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 /* -------- VARIABLES -------- */
-=======
-/* -------- VARIABLES -------- */ 
->>>>>>> task8-hamburger-menu
 :root {
   --bg: #000;
   --text: #fff;
@@ -518,6 +514,58 @@ body {
   .footer-logo h3 {
     font-size: 1.2rem;
   }
+}
+/* =======================
+   🎬 Fun Animations
+======================= */
+
+/* Pulse animation for hover */
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+/* Bounce animation for Our Results */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Spin animation for hover */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* =======================
+   What We Do section
+======================= */
+.what-we-do .service {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.what-we-do .service:hover {
+  animation: pulse 0.6s ease-in-out;
+  transform: translateY(-5px);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* =======================
+   Our Results section
+======================= */
+.our-results .result-card {
+  display: inline-block;
+  animation: bounce 2s infinite ease-in-out;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.our-results .result-card:hover {
+  animation: spin 1.5s linear infinite;
+  color: #ff6600;
+  transform: scale(1.1);
 }
 
 

@@ -24,11 +24,7 @@ body {
 
 .nav {
   display: flex;
-<<<<<<< HEAD
   justify-content: space-between;
-=======
-  justify-content: space-between; 
->>>>>>> task8-hamburger-menu
   align-items: center;
   padding: 1.5rem 0;
 }
