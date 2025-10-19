@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Headphones Landing Page</title>
+  <link rel="stylesheet" href="holberton_school-icon/holberton_school-icon.css">
+  <link rel="stylesheet" href="8-styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="logo">Headphones</a>
+      
+      <!-- Hamburger Icon -->
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <!-- Navigation Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#what-we-do">What we do</a></li>
+        <li><a href="#our-results">Our results</a></li>
+        <li><a href="#contact">Contact us</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero container fade-in">
+      <div class="hero-text">
+        <h1>Your Sound, Your World</h1>
+        <p>Experience the best sound quality with our premium headphones.</p>
+        <a href="#contact" class="btn">Call to Action</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <!-- WHAT WE DO -->
+    <section class="what-we-do container fade-in" id="what-we-do">
+      <h2>What we do…</h2>
+      <p class="section-desc">
+        We provide high-quality audio experiences with modern design and comfort in mind.
+      </p>
+      <div class="services">
+        <div class="service fade-in">
+          <span class="holberton_school-icon-ic_music" aria-hidden="true"></span>
+          <h3>Sound Engineering</h3>
+          <p>Precision-tuned drivers for studio-grade sound quality.</p>
+        </div>
+        <div class="service fade-in">
+          <span class="holberton_school-icon-ic_music" aria-hidden="true"></span>
+          <h3>Music Production</h3>
+          <p>Collaborating with artists to create unforgettable audio experiences.</p>
+        </div>
+        <div class="service fade-in">
+          <span class="holberton_school-icon-ic_music" aria-hidden="true"></span>
+          <h3>Hearing Innovation</h3>
+          <p>Developing technologies that adapt to your hearing preferences.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR RESULTS -->
+    <section class="our-results container fade-in" id="our-results">
+      <h2>Our results speak for themselves</h2>
+      <p class="section-desc">
+        We are proud of our achievements and the satisfaction of our customers.
+      </p>
+      <div class="results">
+        <div class="result-card fade-in">
+          <h3>+2M</h3>
+          <p>Headphones sold</p>
+        </div>
+        <div class="result-card fade-in">
+          <h3>+50</h3>
+          <p>Awards won</p>
+        </div>
+        <div class="result-card fade-in">
+          <h3>98%</h3>
+          <p>Customer satisfaction</p>
+        </div>
+        <div class="result-card fade-in">
+          <h3>+120</h3>
+          <p>Countries reached</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT US -->
+    <section class="contact-us container fade-in" id="contact">
+      <h2>Contact us</h2>
+      <p class="section-desc">
+        Have a question or want to collaborate? Fill out the form below and we’ll get back to you soon.
+      </p>
+
+      <form class="contact-form fade-in" action="#" method="post">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email address" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer fade-in">
+    <div class="container footer-content">
+      <div class="footer-logo">
+        <h3>Headphones</h3>
+      </div>
+
+      <div class="footer-socials">
+        <a href="#"><span class="holberton_school-icon-ic_facebook"></span></a>
+        <a href="#"><span class="holberton_school-icon-ic_twitter"></span></a>
+        <a href="#"><span class="holberton_school-icon-ic_instagram"></span></a>
+      </div>
+    </div>
+    <p class="footer-text">&copy; 2025 Headphones. All rights reserved.</p>
+  </footer>
+
+  <script src="8-script.js"></script>
+</body>
+</html>
